@@ -32,7 +32,7 @@ Creating new features or modifying existing ones to improve model performance.
 Splitting the dataset into training and testing sets for model evaluation.
 
 ### Modeling
-#### Regression Models
+#### Regression Models(Best Models based on performane)
 ##### ->Multiple Linear Regression
 Description:
 Models the relationship between a dependent variable and multiple independent variables by fitting a linear equation.
@@ -43,12 +43,7 @@ Description:
 Includes a regularization term (L2 penalty) to prevent overfitting by shrinking the coefficients of less important features.
 Performance:
 Better generalization on the test set with slightly improved R2 scores and lower MSE values.
-##### ->Lasso Regression
-Description:
-Includes an L1 penalty to prevent overfitting and perform feature selection by shrinking some coefficients to zero.
-Performance:
-Effective feature selection with comparable performance to Ridge Regression.
-#### Classification Models
+#### Classification Models(Best Models based on performance)
 ##### ->Naive Bayes (Boosting)
 Description:
 A probabilistic classifier based on Bayes' theorem, with boosting to combine multiple weak learners into a strong learner.
